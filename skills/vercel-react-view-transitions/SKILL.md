@@ -1,15 +1,17 @@
 ---
 name: vercel-react-view-transitions
-description: Guide for implementing smooth, native-feeling animations using React's View Transition API (`<ViewTransition>` component, `addTransitionType`, and CSS view transition pseudo-elements). Use this skill whenever the user wants to add page transitions, animate route changes, create shared element animations, animate enter/exit of components, animate list reorder, implement directional (forward/back) navigation animations, or integrate view transitions in Next.js. Also use when the user mentions view transitions, `startViewTransition`, `ViewTransition`, transition types, or asks about animating between UI states in React without third-party animation libraries.
-license: MIT
-metadata:
-  author: vercel
-  version: "1.0.0"
+description: "Guide React and Next.js view transitions, shared element animations, route transitions, transition types, and reduced-motion-safe UI state animation."
+risk: safe
+source: "https://github.com/vercel-labs/agent-skills"
+date_added: "2026-06-02"
 ---
 
 # React View Transitions
 
 Animate between UI states using the browser's native `document.startViewTransition`. Declare *what* with `<ViewTransition>`, trigger *when* with `startTransition` / `useDeferredValue` / `Suspense`, control *how* with CSS classes. Unsupported browsers skip animations gracefully.
+
+## When to Use
+- Use this skill when the task matches this description: Guide React and Next.js view transitions, shared element animations, route transitions, transition types, and reduced-motion-safe UI state animation.
 
 ## When to Animate
 
@@ -318,3 +320,8 @@ Always add the reduced motion CSS from `references/css-recipes.md` to your globa
 ## Full Compiled Document
 
 For the complete guide with all reference files expanded: `AGENTS.md`
+
+## Limitations
+- Use this skill only when the task clearly matches the scope described above.
+- Do not treat the output as a substitute for environment-specific validation, testing, or expert review.
+- Stop and ask for clarification if required inputs, permissions, safety boundaries, or success criteria are missing.
