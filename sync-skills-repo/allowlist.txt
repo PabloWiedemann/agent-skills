@@ -1,0 +1,48 @@
+# Skills allowed into the agent-skills repo. Maintained by the sync-skills-repo skill — you don't need to edit this by hand.
+# --- Agentic Design page (Comfy) ---
+frontend-design
+simple-english
+clean-code
+code-review
+# --- Emil Kowalski / animations.dev course (install the missing ones from animations.dev/learn/skills) ---
+emil-design-eng
+apple-design
+animate
+motion-brief
+css-animations
+motion-react
+gesture-ui
+scroll-animations
+debug-animation
+animation-performance
+animation-accessibility
+animation-vocabulary
+find-animation-opportunities
+prototype
+review-animations
+improve-animations
+pick-ui-library
+# --- Jakub Krehel pack ---
+better-ui
+better-typography
+better-colors
+better-accessibility
+# --- Style ---
+minimalist-ui
+# --- Design / UX ---
+web-design-guidelines
+ui-ux-pro-max
+ux-copy
+design-taste-frontend
+# --- Comfy repos (Vue/TS frontend, Electron desktop, Nuxt platform) ---
+playwright-skill
+vitest-skill
+electron-development
+tailwind-patterns
+# --- Shipping ---
+commit
+pr-writer
+screenshots
+agents-md
+# --- Keep ---
+sync-skills-repo

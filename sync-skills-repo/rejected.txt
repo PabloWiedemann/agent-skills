@@ -1,0 +1,1 @@
+# Skills you decided NOT to sync. The sync skill won't ask about these again. Maintained automatically.
