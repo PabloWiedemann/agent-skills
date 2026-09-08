@@ -1,0 +1,4 @@
+interface:
+  display_name: "PW Land PR Stack"
+  short_description: "Review, repair, and land PR stacks with fewer CI cycles"
+  default_prompt: "Use $pw-land-pr-stack to land these PRs, include missing stack members, and minimize CI cycles."
